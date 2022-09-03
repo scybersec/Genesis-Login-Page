@@ -1,0 +1,128 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Matrix';
+    src: url(assets/fonts/3c80d49c5495b9f09abc489dd5db1457.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 13%;
+    margin-left: -2.55%;
+    font-family: 'Matrix';
+    color: #36c455;
+    text-align: center;
+
+}
+.box #username
+{
+    padding: 10px;
+    font-family: 'Matrix';
+    letter-spacing: 0.5em;
+    text-align: center;
+    border-color: #000000;
+    text-transform: uppercase;
+    color: #36c455;
+    transition: 0.2s;
+    margin-bottom: 2%;
+}
+
+
+.box #pass
+{
+    padding: 10px;
+    font-family: 'Matrix';
+    
+    text-align: center;
+    border-color: #000000;
+    text-transform: uppercase;
+    color: #36c455;
+    transition: 0.2s;
+    margin-top: 2%;
+    letter-spacing: 0.5em;
+
+
+}
+
+.box #username:hover, .box #pass:hover
+
+{
+    background: #000000;
+    box-shadow: 0 0 10px #05ec37, 0 0 40px #05ec37;
+}
+
+
+.credentials 
+{
+    border: 0%;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 220px;
+    align-content: space-between;
+}
+
+.box .register
+{
+    margin-top: 2%;
+} 
+
+button
+{
+    margin: 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+    font-family: 'Matrix';
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    border-color: #000000;
+    
+
+}
+button:hover
+{
+    
+    color: #36c455;
+    background: #151414;
+    box-shadow: 0 0 10px #05ec37, 0 0 20px #05ec37;
+
+}
+
+
+/*# sourceMappingURL=main.css.map*/
